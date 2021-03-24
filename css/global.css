@@ -1,0 +1,8 @@
+/* 모든 페이지에 적용되는 CSS 스타일들입니다. 되도록이면 수정하지 마세요. */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  word-break: keep-all;
+  word-wrap: break-word;
+  font-family: 'Noto Sans KR', sans-serif !important;
+}

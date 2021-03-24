@@ -6,212 +6,133 @@
     <meta name="description" content="" />
     <title>Likelion SKKU</title>
 
+    <!-- Font Awesome -->
     <link
-      rel="canonical"
-      href="https://getbootstrap.com/docs/5.0/examples/sticky-footer-navbar/"
-    />
-
-    <!-- Bootstrap core CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+      rel="stylesheet"
     />
 
-    <!-- Custom styles for this template -->
-    <link href="main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/index.css" />
   </head>
   <body class="d-flex flex-column h-100">
+    <!--Main Navigation-->
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark py-4 px-5">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Likelion SKKU</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/schedule.html">Schedule</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/members.html">Members</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/members.html">Services</a>
-                </li>
-              </ul>
-              <form>
-                <button type="button" class="btn btn-outline-light">Apply</button>
-              </form>
-            </div>
-          </div>
-         
-        </nav>
-      </header>
-
-    <!-- Begin page content -->
-    <main class="flex-shrink-0">
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="0"
-            class=""
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-            class="active"
-            aria-current="true"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-            class=""
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item">
-            
-            <img src="https://images.unsplash.com/photo-1612831455740-a2f6212eeeb2?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="" class="carousel-image">
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Example headline.</h1>
-                <p>
-                  Some representative placeholder content for the first slide of
-                  the carousel.
-                </p>
-                <p>
-                  <a class="btn btn-lg btn-primary btn-overwrite" href="#">Sign up today</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item active">
-            <img src="https://images.unsplash.com/photo-1593642532009-6ba71e22f468?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="" class="carousel-image">
-            
-
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>
-                  Some representative placeholder content for the second slide
-                  of the carousel.
-                </p>
-                <p><a class="btn btn-lg btn-primary btn-overwrite" href="#">Learn more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1611095969382-19fbe23cebff?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80" alt="" class="carousel-image">
-
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>
-                  Some representative placeholder content for the third slide of
-                  this carousel.
-                </p>
-                <p>
-                  <a class="btn btn-lg btn-primary btn-overwrite" href="#">Browse gallery</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <div class="container marketing">
-    
-        <!-- START THE FEATURETTES -->
-
-    
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h1 class="featurette-heading mb-3">We are <span class="text-heading-right">Likelion SKKU</span></h1>
-            <p class="lead">성균관대학교 멋쟁이 사자처럼은 인문사회과학캠퍼스를 기반으로 활동하는 중앙 웹프로그래밍 동아리입니다. 전공, 학년, 코딩 실력을 막론하고 자신의 아이디어를 직접 실현하고 싶은 성대생이라면 누구나 함께할 수 있습니다.</p>
-          </div>
-          <div class="col-md-5">
-            <img src="img/1-6.png" class="img-fluid" alt="">
-    
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h1 class="featurette-heading mb-3">Our <span class="text-heading-right">activities</span></h1>
-            <p class="lead">웹 프로그래밍 교육 과정으로는 매주 정기 세션, 스터디, 학기중 및 방학중 특강(Django, Git 등)을 한 해 동안 진행합니다. 이를 바탕으로 중앙 해커톤과 성균관대 멋사 자체 해커톤 및 팀별 프로젝트를 수행합니다.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img src="img/1-5.png" class="img-fluid" alt="">
-    
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h1 class="featurette-heading mb-3">Our <span class="text-heading-right">Services</span></h1>
-            <p class="lead">멋쟁이사자처럼 성균관대학교 출신 서비스들</p>
-            <button type="button" class="btn btn-primary mb-3 btn-overwrite">보러 가기</button>
-
-          </div>
-          <div class="col-md-5">
-            <img src="img/1-4.png" class="img-fluid" alt="">
-    
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <!-- /END THE FEATURETTES -->
-
+      <style>
+        /* Height for devices larger than 576px */
         
-    </main>
+      </style>
 
-    <footer class="container">
-    <p class="float-end"><a href="#" style="color: black">Back to top</a></p>
-    <p>© 2021 Likelion SKKU</p>
-  </footer>
+      <!-- Navbar -->
+      <nav
+        class="px-5 navbar navbar-expand-lg navbar-light bg-light fixed-top"
+        style="z-index: 2000"
+      >
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="#">Likelion SKKU</a>
 
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/staff.html">Staff</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+
+      <!-- Background image -->
+      <div id="intro" class="bg-image vh-100 shadow-1-strong">
+        <video
+          style="min-width: 100%; min-height: 100%"
+          playsinline
+          autoplay
+          muted
+          loop
+        >
+          <source
+            class="h-100"
+            src="/video/Blurred Video of Scripts Being Typed.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="mask">
+          <div
+            class="container d-flex align-items-center justify-content-center text-center h-100"
+          >
+            <div class="text-white">
+              <h1 class="main-text mb-3 fw-bold">멋쟁이사자처럼 X SKKU</h1>
+              <hr />
+              <h3 class="mb-4 fw-light">Hack Your Life</h3>
+
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="/about.html"
+                role="button"
+                
+                >더 알아보기</a
+              >
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                role="button"
+                >지원하기</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Background image -->
+    </header>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
     ></script>
   </body>
 </html>
